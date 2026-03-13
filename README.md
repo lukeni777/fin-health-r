@@ -19,3 +19,12 @@ Open R and run:
 
 ```r
 install.packages(c("shiny", "bslib", "tidyverse", "DT"))
+```
+
+## Run locally
+
+Clone the repository, open R in the project folder, and run:
+
+```r
+shiny::runApp(".")
+```
